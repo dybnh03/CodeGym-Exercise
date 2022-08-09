@@ -1,3 +1,80 @@
+
+let inputNum = +prompt("Nhap so can dao nguoc")
+
+let inputNumFake = inputNum
+
+let count2 = 0
+
+while(inputNumFake > 0){
+    inputNumFake = Math.floor(inputNumFake / 10)
+    count2++
+};
+
+let count3 = count2
+
+
+
+let nguyenNum = Math.floor(inputNum/10)
+let duNum = inputNum % 10
+
+
+while(0 < count3){
+    duNum = inputNum % 10
+    console.log(duNum)
+     nguyenNum = Math.floor(inputNum / 10)
+     inputNum = nguyenNum
+    count3--
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //In ra n so chan dau tien
 
 
@@ -54,32 +131,6 @@
 
 
 
-// let inputNum = +prompt("Nhap so can dao nguoc")
-
-// let inputNumFake = inputNum
-
-// let count2 = 0
-
-// while(inputNumFake > 0){
-//     inputNumFake = Math.floor(inputNumFake / 10)
-//     count2++
-// };
-
-// let count3 = count2
-
-
-
-// let nguyenNum = Math.floor(inputNum/10)
-// let duNum = inputNum % 10
-
-
-// while(0 < count3){
-//     duNum = inputNum % 10
-//     console.log(duNum)
-//      nguyenNum = Math.floor(inputNum / 10)
-//      inputNum = nguyenNum
-//     count3--
-// }
 
 
 
@@ -87,28 +138,7 @@
 
 
 
-let numArray = new Array(9, 30, 10, 50)
-// let sum = 0
-// let avg = 0
-// for(let i = 0; i < numArray.length; i++){
-//     // console.log(numArray[i])
-//     sum+= numArray[i]
-//     avg += numArray[i]/numArray.length
-// }
-
-// console.log("Trung binh cac so trong mang la : " + avg)
-let max = numArray[0]
-for (let i = 0; i < numArray.length; i++) {
-
-    if (numArray[i] > numArray[0]) {
-        max = numArray[i]
-    }
-
-   
 
 
-
-}
-console.log(max)
 
 
