@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<meta charset="utf-8" >
+<html>
+
+<body>
+
+<h2>Moi nhap ten vao o duoi : </h2>
+<input id = "name"  type="text">
+<button type="button" onclick="getGiaTri()"></button>
+
+<script>
+    function getGiaTri(){
+    let myName = document.getElementById("name") //Truy cap den phan tu input qua id = "name"
+    let xuatName = myName.value // Lay ra gia tri cua xuatName || Truy cap den value cua xuatName
+        alert("Ten cua ban la : " + myName.value)
+    }
+</script>
+
+
+
+
+</body>
+
+</html>
