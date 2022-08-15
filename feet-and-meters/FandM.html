@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Convert Feet to Meters</h1>
+    <label for="Feet1">Feet</label>
+    <input type="number" id="Feet1" placeholder="Input Feet here"
+    oninput="FtoM(this.value)">
+
+    <p>Meters : <span id="MetersAfter"></span></p>
+
+    <br>
+    <br>
+    <br>
+
+    <h1>Convert Meters to Feet</h1>
+    <label for="Meters2">Meters</label>
+    <input type="number" id="Meters2" placeholder="Input Met here"
+    oninput="MtoF(this.value)">
+
+    <p>Feet : <span id="FootAfter"></span></p>
+<script src="FandM.js"></script>
+</body>
+</html>
